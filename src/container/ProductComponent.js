@@ -1,8 +1,8 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+// import { useSelector } from 'react-redux'
 
 export default function ProductComponents() {
-  const  products = useSelector((state)=>state.allproducts.products)
+  // const  products = useSelector((state)=>state.allproducts.products)
   // const {id ,tittle}= products[0]
   return (
     <div className="four column wide my-4 ">
