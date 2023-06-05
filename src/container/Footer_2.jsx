@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Footer_2() {
     return (
-
-        <footer class="bg-black">
+        <>
+            <footer class="bg-black">
                 <hr class="bg-slate-600" />
                 <div class=" ml-14 max-w-screen-2xl  pb-6  sm:px-6  sm:mt-4 ">
                     <div class="grid grid-cols-4  md:grid-cols-2 sm:grid-cols-1 gap-6 lg:grid-cols-4">
@@ -331,6 +331,6 @@ export default function Footer_2() {
 
                 </div>
             </footer>
-       
+        </>
     )
 }

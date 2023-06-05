@@ -9,14 +9,16 @@ const sampleSlice = createSlice({
   name: "sample",
   initialState: INITIAL_STATE,
   reducers: {
-    AddCount: (state) => {
+    addCount: (state) => {
       state.cartCount = 1;
     },
     increment: (state) => {
       state.cartCount += 1;
     },
     decrement: (state) => {
+     
       state.cartCount -= 1;
+
     },
   },
 });
